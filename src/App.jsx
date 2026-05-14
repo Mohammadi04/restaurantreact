@@ -309,15 +309,6 @@ function AboutSection() {
           <p style={{ color: 'rgba(255,255,255,0.45)', lineHeight: 1.8, fontSize: '0.95rem', marginBottom: '2.5rem' }}>
             Every recipe has been passed down and perfected over generations. We believe great food is about honesty — real ingredients, real technique, real love.
           </p>
-
-          <div style={{ display: 'flex', gap: '2rem' }}>
-            {[['10+', 'Menu Items'], ['5★', 'Reviews'], ['NYC', 'Based']].map(([n, l]) => (
-              <div key={l} style={{ textAlign: 'center' }}>
-                <div style={{ fontFamily: "'Playfair Display', serif", fontSize: '1.6rem', fontWeight: 900, color: '#ffbe33' }}>{n}</div>
-                <div style={{ color: 'rgba(255,255,255,0.4)', fontSize: '0.75rem', textTransform: 'uppercase', letterSpacing: '0.1em' }}>{l}</div>
-              </div>
-            ))}
-          </div>
         </div>
       </div>
     </section>
