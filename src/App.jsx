@@ -198,16 +198,6 @@ function Hero() {
             onMouseLeave={e => { e.currentTarget.style.borderColor = 'rgba(255,255,255,0.25)'; e.currentTarget.style.color = '#fff'; }}
           >Our Story</a>
         </div>
-
-        {/* Stats */}
-        <div style={{ display: 'flex', gap: '3rem', marginTop: '4rem', flexWrap: 'wrap' }}>
-          {[['500+', 'Daily Orders'], ['4.9★', 'Rating'], ['15min', 'Avg. Wait']].map(([n, l]) => (
-            <div key={l}>
-              <div style={{ fontFamily: "'Playfair Display', serif", fontSize: '1.8rem', fontWeight: 900, color: '#ffbe33' }}>{n}</div>
-              <div style={{ color: 'rgba(255,255,255,0.45)', fontSize: '0.8rem', textTransform: 'uppercase', letterSpacing: '0.1em' }}>{l}</div>
-            </div>
-          ))}
-        </div>
       </div>
     </header>
   );
